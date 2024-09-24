@@ -15,7 +15,7 @@ public class Assignment2309 {
             reverse = reverse + maidenName1.charAt(i);
         }
         System.out.println("The reverse of your maiden name is " + reverse);
-        if (reverse!=maidenName){
+        if (!reverse.equals(maidenName)){
             System.out.println("Your mother's maiden name is not a palindrome");
         }
         else{
